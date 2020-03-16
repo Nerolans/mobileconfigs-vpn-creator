@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>LocalIdentifierType</key>
+				<string>KeyID</string>
+				<key>SharedSecret</key>
+				<data>
+				NEZFMC1BMjhCLTNDRUM3NjUyOTg0Qw==
+				</data>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>1</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>AuthName</key>
+				<string>__SHORTNAME__</string>
+				<key>AuthPassword</key>
+				<string>__PASSWORD__</string>
+				<key>CommRemoteAddress</key>
+				<string>remote.bakkerblanc.ch</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Réglages VPN de « Bakker et Blanc »</string>
+			<key>PayloadDisplayName</key>
+			<string>Bakker et Blanc VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.__UUID1__</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>__UUID1__</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserDefinedName</key>
+			<string>BABL</string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Réglages VPN de « Bakker et Blanc »</string>
+	<key>PayloadDisplayName</key>
+	<string>VPN</string>
+	<key>PayloadIdentifier</key>
+	<string>lan.bakkerblanc.serveur.serverSettings.vpn.l2tp</string>
+	<key>PayloadOrganization</key>
+	<string>Bakker et Blanc</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>__UUID2__</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
